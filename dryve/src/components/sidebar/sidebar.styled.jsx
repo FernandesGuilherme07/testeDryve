@@ -12,43 +12,55 @@ export const AreaSideBar = styled.div`
   
 
       ul {
-
+        margin: 10px;
         align-itens: center;
 
+
         li{
+          
+          display: flex;
+          align-itens: center baseline;
           color: #555;
-          align-itens: baseline;
-          margin: 20px;
           list-style: none;
-          padding: 10px;
+          padding: 8px;
+          cursor: pointer;
+
+          span {
+            margin: 5px;
+          }
 
           div {
             display: flex;
             align-itens: center; 
-            margin-top: 25px;
-                    img{
+            margin-top: 25px; 
+          
+            img{
                             
-                            margin-left: 20px;
-                            width: 50px;
-                            height:50px;
-                            border-radius: 60px;
-                            border: 2px solid #1d74fc;
-                          }
+              margin-left: 20px;
+              margin-bottom: 38px;
+              width: 50px;
+              height:50px;
+              border-radius: 60px;
+              border: 2px solid #1d74fc;
 
-                          span {
-                            margin-left: 7px;
-                            margin-top: 10px;
-                            font-size: 0.8rem;
+              }
 
-                            PowerSettingsNewOutlinedIcon {
-                              font-size: 0.8rem;
-                            }
-                            
-                          }
+              span {
+              margin-left: 7px;
+              margin-top: 17px;
+              font-size: 0.8rem;
 
-                }
+              @media
+
+              }
+
+          }
 
           
+        }
+
+        li:hover {
+          color: #1d74fc;
         }
       }
     

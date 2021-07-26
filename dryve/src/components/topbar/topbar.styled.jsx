@@ -20,7 +20,8 @@ export const AreaNavBar = Styled.div`
       align-itens: center;
 
       div{
-        margin-left: 10px;
+        position: relative;
+        rigth: 10px;
       }
     }
    

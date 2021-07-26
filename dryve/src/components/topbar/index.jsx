@@ -1,6 +1,7 @@
 import { AreaNavBar, ComplementLogo } from "./topbar.styled";
 import SearchIcon from '@material-ui/icons/Search';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
+import PowerSettingsNewOutlinedIcon from '@material-ui/icons/PowerSettingsNewOutlined';
 
 export default function Topbar () {
 
@@ -17,6 +18,9 @@ export default function Topbar () {
                   </div>
                   <div>
                    <a href="#"><NotificationsNoneIcon /></a> 
+                  </div>
+                  <div>
+                   <a href="#"><PowerSettingsNewOutlinedIcon/></a> 
                   </div>
                 </div>
         

@@ -14,6 +14,3 @@ export const Main = Styled.div`
   background-color: #fff;
 `;
 
-export const Body = Styled.div`
-display: flex;
-`;
