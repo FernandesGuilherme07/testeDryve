@@ -5,11 +5,11 @@ export default function FeaturedInfo() {
   return (
     <div className="featured">
       <div className="featuredItem">
-        <span className="featuredTitle">Revanue</span>
+        <span className="featuredTitle">Avaliações de hoje</span>
         <div className="featuredMoneyContainer">
-          <span className="featuredMoney">$2,415</span>
+          <span className="featuredMoney">29</span>
           <span className="featuredMoneyRate">
-            -11.4 <ArrowDownward  className="featuredIcon negative"/>
+            36% <ArrowUpward className="featuredIcon"/>
           </span>
         </div>
         <span className="featuredSub">Compared to last month</span>
